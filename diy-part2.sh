@@ -13,4 +13,4 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate 
 # cp ./210_automake_perl_5.30.0_ver.patch ./openwrt/tools/automake/patches
-# cp ./openwrt/.config ./openwrt/feeds.config.default
+ cp ./openwrt/.config ./openwrt/feeds.config.default
